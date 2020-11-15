@@ -1,0 +1,53 @@
+.p-about{
+    font-size: 40px;
+    font-style: bold;
+}
+
+.about-me{
+    margin-top: 1%;
+}
+.lo-que-hago{
+    margin-top: 4%;
+    background-color: #8a2be2;
+    border-radius: 6.25rem;
+    padding: 0.9375rem;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: 'Cookie', cursive;
+    font-size: 7rem;
+}
+
+.a-lo-que{
+    color: white;
+}
+
+.article-about{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:40%;
+    
+}
+
+.section-about{
+    padding: 2%;
+    width: 80vw;
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+
+.img-about{ 
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 40%;
+    
+}

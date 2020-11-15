@@ -1,0 +1,50 @@
+.section-project{
+    height: 81.25rem;
+}
+
+.h1-project{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+
+} 
+
+.container-project{
+    max-width: 50rem;
+    margin: 1.875rem;
+    margin-left: 15.625rem;   
+    max-height: 37.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    
+}
+
+.card-project{
+    padding: 0.625rem;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 0.625rem;
+    width: 17.5rem;
+    height: 15.625rem;
+    margin: 0.625rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-project:hover {
+    border: 1px solid #995cef;
+}
+
+.title-project{
+    text-align: center;
+    font-size: 1rem;
+    color: blueviolet;
+    
+} 
+.p-project{
+    text-align: center;
+    font-size: 2rem;
+}

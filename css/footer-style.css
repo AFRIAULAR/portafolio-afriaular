@@ -1,0 +1,55 @@
+
+.section-footer{
+    height: 18.75rem;
+    padding: 1%;
+    background-color: #72eef5;
+}
+
+.nav-footer{
+    margin-top: 0.9375rem;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-footer, .skills-footer, .proyectos-footer, .contacto-footer{
+    margin-inline-start:  1.25rem;
+    margin-inline-end: 1.25rem;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.a-about-footer, .a-skills-footer, .a-proyectos-footer, .a-contacto-footer{
+    color: #8a2be2;
+    text-decoration: none;
+    text-shadow: white 2px 2px;
+}
+
+.icons{    
+    margin: 1.875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icons:active{
+    color:
+}
+i{
+    display: flex;
+    justify-content: space-around;
+    display: inline;
+    
+}
+
+.made{
+    text-align: center;
+}
+
+.footer-icons{
+    list-style: none;
+}

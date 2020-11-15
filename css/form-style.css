@@ -1,0 +1,45 @@
+.form-container{
+    width: 75rem;
+    height: 28 rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 1.875rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h2-form{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    margin-top: 0.625rem;
+    padding: 0.625rem;
+
+} 
+button{
+    border-radius: 6.25rem;
+    padding:0.625rem;
+    width: 6.25rem;
+    background-color: #8a2be2;
+    color: white;
+    
+    
+}
+.label-form{
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-right: 1.25rem;
+}
+input{
+    border-radius: 6.25rem;
+    padding: 0.625 rem;
+    width: 18.75rem;
+    height: 1.875rem;
+    margin: 0.3125rem;
+    background-color: rgb(146, 241, 241);
+}
+textarea{
+    border-radius: 1.25rem;
+    background-color: rgb(146, 241, 241);
+}

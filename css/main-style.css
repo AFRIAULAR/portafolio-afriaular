@@ -1,0 +1,12 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    /*font-family: 'Cookie', cursive;
+    font-size: 7rem;*/
+    color: #8a2be2;
+}
