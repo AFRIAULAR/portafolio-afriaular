@@ -20,10 +20,6 @@
     
 }
 
-a{
-    text-decoration: none;
-}
-
 .a-about-footer, .a-skills-footer, .a-proyectos-footer, .a-contacto-footer{
     color: #8a2be2;
     text-decoration: none;
@@ -36,14 +32,10 @@ a{
     justify-content: center;
 }
 
-.icons:active{
-    color:
-}
 i{
     display: flex;
     justify-content: space-around;
-    display: inline;
-    
+    display: inline;   
 }
 
 .made{
@@ -52,4 +44,11 @@ i{
 
 .footer-icons{
     list-style: none;
+}
+
+.a-footer:hover{
+    color: rgb(204, 223, 223);
+}
+.a-footer:active{
+    color: chartreuse;
 }

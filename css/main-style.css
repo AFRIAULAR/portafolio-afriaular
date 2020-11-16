@@ -6,7 +6,10 @@
 }
 
 h1, h2{
-    /*font-family: 'Cookie', cursive;
-    font-size: 7rem;*/
     color: #8a2be2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
