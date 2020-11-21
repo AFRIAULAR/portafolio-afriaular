@@ -34,3 +34,37 @@
     border-radius: 6.25rem;
     padding: 0.625rem;
 }
+
+/* *** MEDIA QUERIES *** */
+
+@media(max-width: 1000px){
+    .menu-container{
+    width: 100%;
+    height: auto;
+    }
+    
+    .nav{
+        margin-left:auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: right;
+
+    }
+}
+
+@media (max-width: 400px) and (min-width:320px){
+    .menu-container{
+        width: 100%;
+        height: auto;
+        }
+        
+    .nav{
+        margin-left:auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: right;
+        }
+
+}

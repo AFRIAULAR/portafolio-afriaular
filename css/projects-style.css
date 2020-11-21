@@ -1,5 +1,7 @@
 .section-project{
     height: 81.25rem;
+    background-color: chartreuse;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .h1-project{
@@ -12,10 +14,10 @@
 } 
 
 .container-project{
-    max-width: 50rem;
+    width: auto;
     margin: 1.875rem;
     margin-left: 15.625rem;   
-    max-height: 37.5rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
@@ -47,4 +49,39 @@
 .p-project{
     text-align: center;
     font-size: 2rem;
+}
+
+/* *** MEDIA QUERIES *** */
+@media(max-width: 1000px){
+    .section-project{
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .section-project{
+        max-height: auto;
+        min-height: auto;
+    }
+
+    .container-project{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: auto;
+        height: auto;  
+
+    }
+
+    .card-project{
+        display: flex;
+        width: auto;
+        height: auto;
+        font-size: 15px;  
+        justify-content: space-between; 
+        
+    }
+
 }

@@ -1,6 +1,6 @@
 .section-skills{
-    max-height: 900 px;
-    max-width: 1000 px;
+    background-color: chartreuse;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .h1-skills{
@@ -16,13 +16,13 @@
     padding:0.625rem;
 }
 .container-skills{
-    max-width: 50rem;
+    width: auto;
     margin: 1.875rem;
     margin-left: 15.625rem;
-    height: 37.5rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -55,4 +55,39 @@ i{
     color: blueviolet;
     font-size: 2rem;
     text-align: center;
+}
+
+/* *** MEDIA QUERIES *** */
+@media(max-width: 1000px){
+    .section-skills{
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .section-skills{
+        max-height: auto;
+        min-height: auto;
+    }
+
+    .container-skills{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: auto;
+        height: auto;  
+
+    }
+
+    .card-skill{
+        display: flex;
+        width: auto;
+        height: auto;
+        font-size: 15px;  
+        justify-content: space-between; 
+        
+    }
+
 }

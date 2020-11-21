@@ -52,3 +52,39 @@ i{
 .a-footer:active{
     color: chartreuse;
 }
+
+
+/* *** MEDIA QUERIES *** */
+
+@media(max-width: 1000px){
+    .section-footer{
+    width: 100%;
+    height: auto;
+    }
+    
+    .nav-footer{
+        margin-left:auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: right;
+
+    }
+}
+
+@media (max-width: 400px) and (min-width:320px){
+    .section-footer{
+        width: 100%;
+        height: auto;
+        }
+        
+    .nav-footer{
+        font-size: 10px;
+        margin-left:auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: right;
+    }
+    
+}
